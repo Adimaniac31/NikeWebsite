@@ -1,7 +1,7 @@
 import React from 'react';
 import {headerLogo} from '../assets/assets/images';
 import {hamburger} from '../assets/assets/icons';
-
+import { navLinks } from '../Constants';
 
 const Nav = () => {
   return (
@@ -16,7 +16,19 @@ const Nav = () => {
                 />   
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:'>
-
+                {navLinks.map((item) => (
+                    <li key={item.label}>
+                        <a 
+                            href={item.href}
+                            className=' font-montserrat 
+                                        leading-normal
+                                        text-lg
+                                        text-slate-gray'
+                        >
+                            {item.label}
+                        </a>                       
+                    </li>
+                ))}
             </ul>
         </nav>
     </header>
