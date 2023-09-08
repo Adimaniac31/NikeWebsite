@@ -2,7 +2,15 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <header>
+        <nav>
+            <a href="/">
+                <img 
+                    src={headerLogo}
+                />   
+            </a>
+        </nav>
+    </header>
   )
 }
 
