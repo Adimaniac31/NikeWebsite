@@ -1,6 +1,6 @@
 import React from 'react';
-import {headerLogo} from '../assets/image';
-import {hamburger} from '../assets/image';
+import {headerLogo} from '../assets/imagess';
+import {hamburger} from '../assets/images';
 
 
 const Nav = () => {
