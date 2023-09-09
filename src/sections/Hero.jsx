@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../Components/Button'
+import { arrowRight } from '../assets/assets/icons'
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           and innovation for your 
           active life.
         </p>
-        <Button />
+        <Button label="Shop Now" iconURL={arrowRight}/>
       </div>
     </section>
   )
