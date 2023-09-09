@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../Components/Button'
 import { arrowRight } from '../assets/assets/icons'
-
+import { statistics } from '../Constants'
 const Hero = () => {
   return (
     <section
@@ -23,6 +23,15 @@ const Hero = () => {
           active life.
         </p>
         <Button label="Shop Now" iconURL={arrowRight}/>
+        <div className='flex justify-starts items-start flex-wrap
+                        w-full mt-20 gap-16'>
+                          {statistics.map((stat,index)=>(
+                            <div>
+                              <p className='font-montserrat text-2xl text-zinc-300'>{stat.value}</p>
+                              <pc className='font-palanquin text-lg'>{stat.label}</pc>
+                            </div>
+                          ))}
+                        </div>
       </div>
     </section>
   )
