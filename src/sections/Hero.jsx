@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
           and innovation for your 
           active life.
         </p>
+        <Button />
       </div>
     </section>
   )
