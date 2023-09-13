@@ -26,11 +26,11 @@ const Hero = () => {
                         w-full mt-20 gap-16'>
                           {statistics.map((stat,index)=>(
                             <div>
-                              <p className='font-montserrat text-4xl text-zinc-300 font-bold'>{stat.value}</p>
-                              <pc className='font-palanquin text-lg'>{stat.label}</pc>
+                              <p className='font-montserrat text-3xl text-zinc-300 font-bold'>{stat.value}</p>
+                              <pc className='font-palanquin text-lg font-bold'>{stat.label}</pc>
                             </div>
                           ))}
-                        </div>
+          </div>
       </div>
     </section>
   )
