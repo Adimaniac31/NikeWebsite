@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../Components/Button'
 import { arrowRight } from '../assets/assets/icons'
 import { statistics } from '../Constants'
+import { bigShoe1 } from '../assets/assets/images'
 const Hero = () => {
   return (
     <section
@@ -31,6 +32,10 @@ const Hero = () => {
                             </div>
                           ))}
           </div>
+      </div>
+
+      <div>
+        <img src={bigShoe1}/>
       </div>
     </section>
   )
