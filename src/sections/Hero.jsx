@@ -35,7 +35,12 @@ const Hero = () => {
       </div>
 
       <div>
-        <img src={bigShoe1}/>
+        <img src={bigShoe1}
+             alt = "shoe collection"
+             width = {610}
+             height = {500}
+             className='object-contain relative z-10'
+        />
       </div>
     </section>
   )
