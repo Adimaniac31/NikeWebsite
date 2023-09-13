@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../Components/Button'
 import { arrowRight } from '../assets/assets/icons'
-import { statistics } from '../Constants'
+import { shoes,statistics } from '../Constants'
 import { bigShoe1 } from '../assets/assets/images'
 const Hero = () => {
   return (
@@ -41,6 +41,12 @@ const Hero = () => {
              height = {500}
              className='object-contain relative z-10'
         />
+
+        <div>
+          {shoes.map((shoe)=>(
+              <ShoeCard />
+          ))}
+        </div>
       </div>
     </section>
   )
