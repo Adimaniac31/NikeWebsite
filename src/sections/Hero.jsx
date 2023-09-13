@@ -3,6 +3,7 @@ import Button from '../Components/Button'
 import { arrowRight } from '../assets/assets/icons'
 import { shoes,statistics } from '../Constants'
 import { bigShoe1 } from '../assets/assets/images'
+import ShoeCard from '../Components/ShoeCard';
 const Hero = () => {
   return (
     <section
