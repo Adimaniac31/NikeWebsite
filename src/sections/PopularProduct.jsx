@@ -10,6 +10,9 @@ const PopularProduct = () => {
           We have a wide range of quality and affordable products to suit your needs. We are committed towards providing you with the best possible service at an
         </p>
       </div>
+      <div className='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14'>
+
+      </div>
     </section>
   )
 }
