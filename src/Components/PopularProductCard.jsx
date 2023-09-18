@@ -1,4 +1,5 @@
 import React from 'react'
+import { star } from '../assets/assets/icons'
 
 const PopularProductCard = ({imgURL,name,price}) => {
   return (
@@ -8,6 +9,9 @@ const PopularProductCard = ({imgURL,name,price}) => {
         alt={name}
         className='w-280px h-[280px]'
         />
+        <div className='mt-8 flex justify-start gap-2.5'>
+            <img src={star} alt="rating" width={24} height={24}></img>
+        </div>
     </div>
   )
 }
