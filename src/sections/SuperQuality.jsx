@@ -11,18 +11,23 @@ const SuperQuality = () => {
     >
       <div className='flex flex-1 flex-col'>
         <h2 className= "text-md font-palanquin capitalize text-slate-400 mt-10 text-4xl max-sm:leading-[82] font-bold lg-max w-lg">
-          <span className='max-sm:72px xl:bg-white xl:white-space-nowrap relative z-10 pr-10 inline-block mt-3'>The New Arrival</span>
+          <span className='max-sm:72px xl:bg-white xl:white-space-nowrap relative z-10 pr-10 inline-block mt-3'>We Provide You</span>
           <br />
-          <span className="text-8xl text-coral-red font-montserrat ">Nike</span> Shoes 
+          <span className="text-8xl text-coral-red font-montserrat ">Super Quality</span> Shoes 
         </h2>
-        <p className='font-montserrat text-slate-gray text-lg leading-8 mb-14'>
-          Discover stylish Nike
-          Arrivals, quality comfort, 
-          and innovation for your 
-          active life.
+        <p className='mt-4 lg:max-w-lg info-text'>
+          Ensuring premium comfort and 
+          style, our meticulously crafted footwear is 
+          designed to elevate your experience, providing with unmatched quality,
+          innovation, and a touch of elegance.
+        </p>
+        <p className='mt-6 lg:max-w-lg info-text'>
+          Our dedication to detail and excellence ensures your satisfaction.
         </p>
         </div>
-        <Button label="View Details" iconURL={arrowRight}/>
+        <div className='mt-11'>
+          <Button label="View Details" iconURL={arrowRight}/>
+        </div>
     </section>
   )
 }
