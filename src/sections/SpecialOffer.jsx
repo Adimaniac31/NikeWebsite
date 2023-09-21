@@ -1,6 +1,7 @@
 import React from 'react'
 import { offer } from '../assets/assets/images'
 import Button from '../Components/Button'
+import { arrowRight } from '../assets/assets/icons'
 
 const SpecialOffer = () => {
   return (
@@ -20,8 +21,9 @@ const SpecialOffer = () => {
           Navigate a realm of possibilities designed to fulfil your unique desires,surpassing the loftiest expectations.Your journey with us is nothing short of exceptional.
         </p>
         </div>
-        <div className='mt-11'>
-          <Button label="View Details"/>
+        <div className='mt-11 flex flex-wrap gap-4'>
+          <Button label="Shop Now" iconURL={arrowRight}/>
+          <Button label="Learn More" backgroundColor="bg-white" borderColor="border-slate-gray" textColor="text-slate-gray"/>
         </div>
     </section>
   )
