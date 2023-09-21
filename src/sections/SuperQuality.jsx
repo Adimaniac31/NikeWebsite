@@ -1,5 +1,4 @@
 import React from 'react'
-import { arrowRight } from '../assets/assets/icons'
 import Button from '../Components/Button'
 const SuperQuality = () => {
   return (
@@ -26,7 +25,7 @@ const SuperQuality = () => {
         </p>
         </div>
         <div className='mt-11'>
-          <Button label="View Details" iconURL={arrowRight}/>
+          {iconURL &&<Button label="View Details"/>}
         </div>
     </section>
   )
