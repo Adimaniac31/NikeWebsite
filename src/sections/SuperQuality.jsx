@@ -9,7 +9,7 @@ const SuperQuality = () => {
       items-center max-lg:flex-col gap-10
       w-ull max-container'
     >
-        <p className='text-xl font-palanquin text-blue-400' >Our Summer Collections</p>
+      <div className='flex flex-1 flex-col'>
         <h1 className= "text-md font-palanquin text-slate-400 mt-10 text-4xl max-sm:leading-[82] font-bold">
           <span className='max-sm:72px xl:bg-white xl:white-space-nowrap relative z-10 pr-10 inline-block mt-3'>The New Arrival</span>
           <br />
@@ -21,6 +21,7 @@ const SuperQuality = () => {
           and innovation for your 
           active life.
         </p>
+        </div>
         <Button label="View Details" iconURL={arrowRight}/>
     </section>
   )
